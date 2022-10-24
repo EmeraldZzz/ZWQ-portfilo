@@ -1,0 +1,122 @@
+.section-cover-box {
+  margin: 9.6rem 0;
+}
+.img-cover {
+  width: 50%;
+}
+.section-cover-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.cover-title {
+  padding-bottom: 2.4rem;
+}
+
+/* .section-cover-img {
+} */
+
+.goal-title,
+.problem-title {
+  margin-bottom: 3.2rem;
+}
+
+/* introduction */
+.section-art-introduction {
+  margin: 9.6rem 0;
+}
+
+/* user research */
+.text-padding-bottom {
+  padding-bottom: 3.2rem;
+}
+.pain-point-title {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #0b7285;
+}
+.user-research-pain-points {
+  margin: 9.6rem 0;
+}
+/* pain point */
+.pain-point-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  align-items: top;
+}
+.persona-anne,
+.map-anne {
+  display: flex;
+  gap: 3.2rem;
+  max-width: 100rem;
+}
+.anne-text {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+.anne-img {
+  max-width: 56rem;
+}
+/* user journey map */
+.map-anne {
+  align-items: center;
+}
+/* paper wireframe */
+.paper-wireframe,
+.padding-box {
+  padding: 3.6rem 0;
+}
+.paper-wireframe-box {
+  margin: 2.4rem 0;
+}
+.paper-wireframe-img {
+  width: 50%;
+}
+.digital-img {
+  height: 24rem;
+}
+.link-low-fi {
+  padding: 2.4rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+/* usability study */
+.usability-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  padding: 2.4rem 0;
+}
+.finding-round {
+  margin: 1.8rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.find-list::before {
+  content: "·";
+  padding-right: 1.2rem;
+}
+.link-high-fi {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-top: 2.4rem;
+  text-decoration: underline currentColor;
+}
+/* accesibility */
+.accessibility,
+.next-step {
+  padding: 6.4rem 0;
+}
+.accessibility-box {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+/* footer */
+.art-footer {
+  padding: 4.8rem 0;
+  text-align: right;
+}

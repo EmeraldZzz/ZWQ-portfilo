@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="CSS/practise-3/style.css">
+  <link rel="stylesheet" href="CSS/general.css">
+  <link rel="stylesheet" href="CSS/practise-3/queries-03.css">
+
+  <link rel="icon" href="img/Personal/logo-64.png">
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script defer src="JS/script.js"></script>
+  <title>Art app</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-container">
+      <div class="logo-box">
+        <a href="index.html">
+          <img class="img" src="img/Personal/logo-64.png" alt="">
+        </a>
+      </div>
+      <nav class="nav-box">
+        <ul>
+          <li><a class="link" href="index.html">UX Practise</a></li>
+          <!-- <li><a class="link" href="#">Design Work</a></li> -->
+          <li><a class="link" href="/about-me.html">About Me</a></li>
+        </ul>
+      </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </div>
+  </header>
+  <main>
+    <section class="section-cover">
+      <div class="container">
+        <div class="section-cover-box grid grid--2-cols">
+          <div class="section-cover-text">
+            <h1 class="heading-secondary cover-title">Art App</h1>
+            <p class="paragraph">I create an app to help users to enjoy the artworks in the gallery and learn some
+              basic art knowledge about art.
+            </p>
+            <p class="paragraph"><span>My Responsibility</span> &rArr; interviews, paper and digital wireframing, low
+              and
+              high-fidelity
+              prototyping,
+              conducting usability studies,
+              accounting for accessibility, and iterating on designs
+            </p>
+          </div>
+          <div class="section-cover-img">
+            <img class="img-cover" src="img/Practise-3/cover.jpg" alt="cover">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-art-introduction">
+      <div class="container">
+        <div class="section-art-introduction-box grid grid--2-cols">
+          <div class="problem">
+            <div class="problem-title heading-tertiary">
+              The problem
+            </div>
+            <div class="problem-text paragraph">
+              Existing art apps only provide simple text introductions about artworks, which are too professional for
+              users to
+              understand, resulting in lack of interest for users.
+            </div>
+          </div>
+          <div class="goal">
+            <div class="goal-title heading-tertiary">
+              The goal
+            </div>
+            <div class="goal-text paragraph">
+              Design an app to provide users with more information about art works and artists, as well as relevant art
+              introduction
+              knowledge, so as to help users improve their interest in art and learn more about art and artists
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-user-research">
+      <div class="container">
+        <h2 class="heading-secondary text-padding-bottom">User Research</h2>
+        <p class="paragraph">I conducted interviews and created empathy maps to understand the users I
+          am designing for
+          and their needs. A primary
+          user group identified through research was visitors are frustrated by the arcane technical explanation of the
+          artworks.
+          People who like visiting the exhibition usually couldn`t find the demonstration about the artwork they enjoy.
+          And they
+          are frustrated to search a lot of professional information hard to understand.
+        </p>
+
+        <div class="user-research-pain-points grid grid--4-cols margin-top-bg">
+          <h3 class="heading-tertiary">Pain Points</h3>
+          <div class="pain-point-box">
+            <h3 class="pain-point-title ">Unclear Introduction
+            </h3>
+            <p class="paragraph">Visitors want the basic introduction to their loving artworks
+            </p>
+          </div>
+          <div class="pain-point-box">
+            <h3 class="pain-point-title">Lack of Information
+            </h3>
+            <p class="paragraph">Galleries don`t provide the systematic information about the art and artists
+            </p>
+          </div>
+          <div class="pain-point-box">
+            <h3 class="pain-point-title">Lack of Interest
+            </h3>
+            <p class="paragraph">The provided professional introduction do not attract the visitors and frustrate them
+            </p>
+          </div>
+        </div>
+        <div class="persona section-margin">
+          <h3 class="heading-tertiary margin-bottom-md">Persona</h3>
+
+          <div class="persona-anne">
+            <div class="anne-text">
+              <p class="featured-font pain-point-title ">Problem statement</p>
+              <p class="paragraph">Users are frustrated about the hard- understanded introduction to the artwork, and
+                don`t know how to know the art and
+                artists systematically.
+              </p>
+            </div>
+            <div class="anne-img"><img class="img" src="img/Practise-3/persona-anne.png" alt=""></div>
+          </div>
+
+          <div class="user-journey-map section-margin">
+            <h3 class="heading-tertiary">User Journey Map</h3>
+            <div class="map-anne">
+              <p class="paragraph">Mapping Anne’s user journey revealed how helpful it would be for users to have the
+                art introduction which is easy
+                understanded.
+              </p>
+              <div class="anne-img"><img class="img" src="img/Practise-3/user-journey-map-anne.png" alt=""></div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-wireframe section-margin">
+      <div class="container">
+        <h2 class="heading-secondary">Starting
+          the design
+        </h2>
+
+
+        <div class="paper-wireframe padding-box">
+          <h3 class="heading-tertiary margin-top-md">Paper Wireframe</h3>
+          <div class="paper-wireframe-box grid grid--2-cols">
+            <p class="paragraph">Taking the time to draft iterations of each screen of the app on paper ensured that the
+              elements that made it to digital
+              wireframes would be well-suited to address user pain points. For the home screen, I prioritized a search
+              bar for users
+              to find the artwork directly.
+            </p>
+            <img src="img/Practise-3/paper-wireframe.png" alt="" class="paper-wireframe-img">
+          </div>
+        </div>
+
+        <div class="digital-wireframe padding-box">
+          <h3 class="heading-tertiary margin-top-md">Digital wireframes</h3>
+          <div class="digital-wireframe-box grid grid--4-cols">
+            <p class="paragraph digital-wireframe-text">As the initial design phase continued, I made sure to base
+              screen designs
+              on feedback
+              and findings from the user
+              research.
+            </p>
+            <div><img class="digital-img" src="img/Practise-3/wireframe-01.png" alt=""></div>
+            <div><img class="digital-img" src="img/Practise-3/wiraframe-02.png" alt=""></div>
+            <div><img class="digital-img" src="img/Practise-3/wireframe-03.png" alt=""></div>
+          </div>
+        </div>
+
+        <div class="low-fi-prototype padding-box">
+          <h3 class="heading-tertiary margin-top-md">Low-fidelity prototype
+          </h3>
+          <div class="paper-wireframe-box grid grid--2-cols">
+            <div class="digital-text">
+
+              <p class="paragraph">As the initial design phase continued, I made sure to base screen designs on feedback
+                and findings from the user
+                research.
+              </p>
+              <a href="https://www.figma.com/proto/tIbVmj6g14jEZUVTuTxxwz/Art?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1
+" class="link-low-fi link">View the low-fi prototype here</a>
+            </div>
+            <div><img class="prototype-img" src="img/Practise-3/low-fi prototype.png" alt=""></div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-usability-study section-margin">
+      <div class="container">
+
+        <h3 class="heading-tertiary">Usability Study</h3>
+        <!-- Study Type :Moderated usability study
+
+        Participants :5 participants
+
+        Length :Above 10 minutes -->
+        <div class="usability-text">
+          <p class="paragraph">
+            <span>Study Type &colon;</span>Moderated usability study
+          </p>
+          <p class="paragraph">
+            <span>Participants &colon;</span>5 participants
+          </p>
+          <p class="paragraph">
+            <span>Length &colon;</span>Above 10 minutes
+          </p>
+        </div>
+
+        <div class="finding grid grid--2-cols">
+          <div class="finding-round">
+            <h3 class="featured-font">round 1 finding</h3>
+            <ul class="find-lists">
+              <li class="find-list paragraph">People want clear meaning of the key words
+              </li>
+              <li class="find-list paragraph">People want appropriate feedback after the operation
+              </li>
+              <li class="find-list paragraph">People want appropriate feedback after the operation
+              </li>
+            </ul>
+          </div>
+          <div class="finding-round">
+            <h3 class="featured-font">round 2 finding</h3>
+            <ul class="find-lists">
+              <li class="find-list paragraph">People prefer bigger margin
+              </li>
+              <li class="find-list paragraph">People want bigger serach place to use
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-refine section-margin">
+      <div class="container">
+        <div class="mockup">
+          <h3 class="heading-tertiary margin-bottom-md">Mockup</h3>
+          <div class="mockup-box grid grid--2-cols">
+            <div class="mockup-part">
+              <p class="mockup-text paragraph">After the usability studies, I classified the search outcome clearly,
+                with artworks
+                and lectures.
+              </p>
+              <img src="img/Practise-3/mockup-01.png" alt="" class="img">
+            </div>
+            <div class="mockup-part">
+              <p class="mockup-text paragraph">I unified the name of the label and modified the presentation of the
+                artist's life.
+              </p>
+              <img src="img/Practise-3/mockup-02.png" alt="" class="img">
+            </div>
+            <div class="mockup-part">
+              <img src="img/Practise-3/mockup-03.png" alt="" class="img img-mockup">
+            </div>
+            <div class="mockup-part">
+              <h3 class="heading-tertiary">High fidelity Prototype</h3>
+              <a href="https://www.figma.com/proto/tIbVmj6g14jEZUVTuTxxwz/Art?node-id=221%3A495&scaling=min-zoom&page-id=221%3A494&starting-point-node-id=221%3A495
+" class="link link-high-fi">Veiw it here</a>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="accessibility">
+          <h3 class="heading-tertiary margin-bottom-md">Accessibility considerations
+          </h3>
+          <ul class="accessibility-box">
+            <li class="accesibility-part">
+              Use the outline and divider to differentiate functional blocks
+            </li>
+            <li class="accesibility-part">
+              Use the different color to emphasis
+            </li>
+            <li class="accesibility-part">
+              Used detailed image to indicate the information of the artwork and artist
+            </li>
+          </ul>
+        </div>
+
+        <div class="takeaways">
+          <h3 class="heading-tertiary margin-bottom-md">Takeaways</h3>
+          <div class="takeaways-box">
+            <p class="paragraph">
+              In this project, I feel that the final result of the project is quite different from what I imagined at
+              the beginning.
+              I found the importance of the usability study.
+            </p>
+            <p class="paragraph">What the most importance is the users’ feedback and usability studies.
+            </p>
+          </div>
+        </div>
+        <div class="next-step">
+          <h3 class="heading-tertiary margin-bottom-md">Next Step</h3>
+          <ul class="next-step-box">
+            <li class="paragraph">Try to complete the secondary function of this app , and conduct usability studies
+              about the function of booking an
+              exhibition</li>
+            <li class="paragraph">Conduct more user research to determine any new areas of need.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="art-footer">
+    <div class="container">
+      <p class="paragraph">Z WQ</p>
+    </div>
+  </footer>
+</body>
+
+</html>
