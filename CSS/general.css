@@ -234,8 +234,9 @@ nav ul {
   }
   .nav-open .icon-mobile-nav[name="close-outline"] {
     display: block;
+    position: fixed;
+    right: 2.4rem;
   }
-
   .nav-open .icon-mobile-nav[name="menu-outline"] {
     display: none;
   }
