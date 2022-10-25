@@ -1,4 +1,4 @@
-.about {
+.about，.resume {
   margin: 9.6rem 0;
 }
 .about-text {
@@ -11,4 +11,7 @@
 .contact:hover,
 .contact:active {
   color: #0b7285;
+}
+.text-margin {
+  margin-bottom: 1.6rem;
 }
