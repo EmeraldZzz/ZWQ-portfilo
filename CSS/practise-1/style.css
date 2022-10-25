@@ -274,3 +274,12 @@
   background-color: #dc6464;
   margin-right: 2.4rem;
 }
+.footer-email:link,
+.footer-email:visited {
+  border-bottom: 1px solid transparent;
+}
+.footer-email:hover,
+.footer-email:active {
+  color: #095b6a;
+  border-bottom: 1px solid #095b6a;
+}
