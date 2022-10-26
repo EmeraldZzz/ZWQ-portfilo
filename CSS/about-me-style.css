@@ -1,5 +1,7 @@
-.about，.resume {
-  padding: 9.6rem 0;
+.about,
+.resume {
+  display: block;
+  margin: 9.6rem 0;
 }
 .about-text {
   padding: 1.2rem 0;
