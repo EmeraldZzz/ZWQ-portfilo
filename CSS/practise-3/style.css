@@ -57,6 +57,8 @@
   flex-direction: column;
   gap: 3.2rem;
 }
+.prototype-img{
+  width:100%}
 .anne-img {
   max-width: 56rem;
 }
